@@ -11,11 +11,11 @@ Remove all non-initial occurrences of the following letters: a, e, h, i, o, u, w
 
 Step 3: Replace the remaining letters (except the first) with numbers:
 
- b, f, p, v -> 1
- c, g, j, k, q, s, x, z -> 2
- d, t -> 3
- l -> 4
- m, n -> 5
- r -> 6
+* b, f, p, v -> 1
+* c, g, j, k, q, s, x, z -> 2
+* d, t -> 3
+* l -> 4
+* m, n -> 5
+* r -> 6
 
 The given python code builds a Finite State Transducer to generate soundex for the given input.
